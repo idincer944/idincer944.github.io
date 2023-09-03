@@ -303,7 +303,25 @@ input, select, textarea {
 		border-radius: 50%; /* Makes the image circular */
 		float: right;
 		margin-right: 20px; /* Adds some space between image and text */
+		margin-left: 50px;
 	}
+
+	.education {
+		display: flex;
+		max-width: 200px; /* Adjust the size as needed */
+		height: auto;
+		border-radius: 50%; /* Makes the image circular */
+		float: right;
+		margin-right: 20px; /* Adds some space between image and text */
+		margin-left: 50px;
+	}
+
+	.education-article::after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+
 
 	.project-article {
 		display: flex;
